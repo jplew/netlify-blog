@@ -1,19 +1,25 @@
-import * as React from 'react'
-import Link from 'next/link'
-import Layout from '../components/Layout'
-import { NextPage } from 'next'
+import React, { Component } from 'react'
+import content from '../content/home.md';
 
-const IndexPage: NextPage = () => {
-  return (
-    <Layout title="Home | Next.js + TypeScript Example">
-      <h1>Hello Next.js 👋</h1>
-      <p>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </p>
-    </Layout>
-  )
+export default class Home extends Component {
+
+  render() {
+    console.log({content})
+    let { html , attributes:{ title, cats } } = content;
+    return (
+      <article>
+          <h1>{title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: html }}/>
+          <ul>
+              { cats.map((cat, k) => (
+                  <li key={k}>
+                    <h2>{cat.name}</h2>
+                    <p>{cat.description}</p>
+                  </li>
+              ))}
+          </ul>
+      </article>
+    )
+  }
 }
 
-export default IndexPage
