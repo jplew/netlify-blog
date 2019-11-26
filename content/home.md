@@ -11,8 +11,8 @@ cats:
   - description: the best orange cat
     name: Orange
 featured:
-  - Let's Party
-  - Some Food For Thought
+  - lets-party
+  - some-food-for-thought
 ---
 Welcome to my awesome page about cats of the internet.
 
