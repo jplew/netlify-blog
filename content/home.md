@@ -15,6 +15,4 @@ Welcome to my awesome page about cats of the internet.
 
 This page is built with NextJS, Typescript, and content is managed in Netlify CMS.
 
-
-
 ![yel](/static/img/download.png "y")
