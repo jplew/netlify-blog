@@ -39,24 +39,17 @@ const Post: NextPage<PostProps> = props => {
   )
 }
 
-Post.getInitialProps = async (ctx: any) => {
-  const slug = ctx.req && ctx.req.query ? ctx.req.query.slug : ctx.query.slug
+Post.getInitialProps = async ctx => {
+  const {
+    query: { slug }
+  } = ctx
 
   console.log({ slug })
-
-  if (ctx.res) {
-    console.log("setHeader")
-    ctx.res.setHeader(
-      "Cache-Control",
-      "public, s-maxage=30, stale-while-revalidate"
-    )
-  }
 
   if (slug) {
     const post = await import(`../../content/posts/${slug}.md`)
     return { post }
   }
-  console.log("there was no slug")
   return {}
 }
 
