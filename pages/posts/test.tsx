@@ -6,12 +6,12 @@ export default () => {
       <h1>Test</h1>
       <p>
         <Link href="/posts/[slug]" as="/posts/lets-party">
-          Let's Party
+          <a>Let's Party</a>
         </Link>
       </p>
       <p>
         <Link href="/posts/[slug]" as="/posts/some-food-for-thought">
-          Some Food For Thought
+          <a>Some Food For Thought</a>
         </Link>
       </p>
     </article>

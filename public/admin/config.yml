@@ -2,10 +2,10 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-media_folder: public/static/img
-public_folder: static/img
+media_folder: public/img
+public_folder: img
 site_url: https://butwillitscale.com
-logo_url: https://butwillitscale.com/static/img/download.png
+logo_url: https://butwillitscale.com/img/download.png
 collections:
   - name: "pages"
     label: "Pages"
