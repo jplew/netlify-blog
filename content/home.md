@@ -12,10 +12,6 @@ cats:
     name: Orange
 ---
 
-![nachos](/static/img/nachos_tiny.jpg "my nachos")
-
 Welcome to my awesome page about cats of the internet.
 
 This page is built with NextJS, Typescript, and content is managed in Netlify CMS.
-
-![green](/static/img/images.png "that's what i'm talkin about")
