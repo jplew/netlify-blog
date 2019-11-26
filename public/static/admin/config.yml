@@ -36,7 +36,7 @@ collections:
     folder: "content/posts"
     preview_path: "posts/{{slug}}"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
