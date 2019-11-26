@@ -27,8 +27,9 @@ collections:
             name: "featured"
             widget: "relation"
             collection: "blog"
-            searchFields: ["title"]
             valueField: "slug"
+            displayFields: "title"
+            searchFields: ["title"]
             multiple: true
   - name: "blog"
     label: "Blog"
