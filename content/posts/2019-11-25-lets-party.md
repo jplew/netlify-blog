@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Let's Party"
+slug: "lets-party"
 date: 2019-11-25 19:35:02 -0800
 thumbnail: "/static/img/download.png"
 rating: 5
