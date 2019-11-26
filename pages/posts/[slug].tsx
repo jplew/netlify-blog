@@ -10,9 +10,11 @@ type Blog = {
   body: string
 }
 
-const PostPage: NextPage<{
+type PostProps = {
   post?: { attributes: Blog; html: string }
-}> = props => {
+}
+
+const Post: NextPage<PostProps> = props => {
   if (!props.post) {
     return <div>Loading...</div>
   }
@@ -37,17 +39,19 @@ const PostPage: NextPage<{
   )
 }
 
-PostPage.getInitialProps = async ctx => {
+Post.getInitialProps = async ctx => {
   const {
     query: { slug }
   } = ctx
 
+  console.log({ slug })
+
   if (slug) {
     const post = await import(`../../content/posts/${slug}.md`)
-
     return { post }
   }
+  console.log("there was no slug")
   return {}
 }
 
-export default PostPage
+export default Post
