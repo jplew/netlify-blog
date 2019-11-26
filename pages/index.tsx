@@ -1,5 +1,5 @@
 import Head from "next/head"
-import React, { Component } from "react"
+import { Component } from "react"
 import content from "../content/home.md"
 
 type Cat = {

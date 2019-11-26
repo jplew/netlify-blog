@@ -6,14 +6,10 @@ module.exports = {
     })
     return config
   },
-  exportPathMap: async function(
-    defaultPathMap,
-    { dev, dir, outDir, distDir, buildId }
-  ) {
+  exportPathMap: async function(defaultPathMap) {
     console.log({ defaultPathMap })
     return {
-      "/": { page: "/" },
-      "/about": { page: "/about" },
+      ...defaultPathMap,
       "/posts/lets-party": {
         page: "/posts/[slug]",
         query: { slug: "lets-party" }
