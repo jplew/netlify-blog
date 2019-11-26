@@ -1,6 +1,6 @@
+import Head from "next/head"
 import React, { Component } from "react"
 import content from "../content/home.md"
-import Head from "next/head"
 
 type Cat = {
   name: string
