@@ -15,11 +15,11 @@ module.exports = {
       "/": { page: "/" },
       "/about": { page: "/about" },
       "/posts/lets-party": {
-        page: "/posts/lets-party",
+        page: "/posts/[slug]",
         query: { slug: "lets-party" }
       },
       "/posts/some-food-for-thought": {
-        page: "/posts/some-food-for-thought",
+        page: "/posts/[slug]",
         query: { slug: "some-food-for-thought" }
       }
     }
