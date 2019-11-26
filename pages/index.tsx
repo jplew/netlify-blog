@@ -14,8 +14,6 @@ export default class Home extends Component {
       attributes: { title, cats }
     } = content
 
-    console.log({ content })
-
     return (
       <>
         <Head>
