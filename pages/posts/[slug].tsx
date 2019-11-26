@@ -39,10 +39,8 @@ const Post: NextPage<PostProps> = props => {
   )
 }
 
-Post.getInitialProps = async ctx => {
-  const {
-    query: { slug }
-  } = ctx
+Post.getInitialProps = async (ctx: any) => {
+  const slug = ctx.req ? ctx.req.query.slug : ctx.query.slug
 
   console.log({ slug })
 
