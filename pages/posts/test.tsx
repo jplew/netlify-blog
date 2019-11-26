@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default () => {
   return (
-    <article>
-      <h1>Test</h1>
+    <header>
+      <h1>ButWillItScale.com</h1>
       <p>
         <Link href="/posts/[slug]" as="/posts/lets-party">
           <a>Let's Party</a>
@@ -14,6 +14,6 @@ export default () => {
           <a>Some Food For Thought</a>
         </Link>
       </p>
-    </article>
+    </header>
   )
 }

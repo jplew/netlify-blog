@@ -7,4 +7,4 @@ thumbnail: /static/img/nachos_tiny.jpg
 rating: 3
 ---
 
-Do you love nachos as much as me?
+What are your all time favorite foods? Nachos are definitely up there for me.
