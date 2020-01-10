@@ -46,13 +46,28 @@ collections:
             widget: "date"
             default: ""
             format: "MM/DD/YYYY"
-          - label: "Address"
-            name: "address"
+          - label: "Features"
+            name: "features"
             widget: "object"
             fields:
-              - { label: "Street Address", name: "street", widget: "string" }
-              - { label: "City", name: "city", widget: "string" }
-              - { label: "Postal Code", name: "post-code", widget: "string" }
+              - label: "Feature 1"
+                name: "feature1"
+                widget: "object"
+                fields:
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Blurb", name: "blurb", widget: "text" }
+              - label: "Feature 2"
+                name: "feature2"
+                widget: "object"
+                fields:
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Blurb", name: "blurb", widget: "text" }
+              - label: "Feature 3"
+                name: "feature3"
+                widget: "object"
+                fields:
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - { label: "Blurb", name: "blurb", widget: "text" }
       - label: "Registry"
         name: "registry"
         file: "content/registry.md"
