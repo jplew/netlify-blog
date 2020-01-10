@@ -7,7 +7,7 @@ cats:
   - description: bengal tiger was sliced in half
     name: Pasha
 featured:
-  - letsa-party
+  - lets-party
 ---
 
 # Hello developers
