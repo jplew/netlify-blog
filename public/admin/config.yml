@@ -30,6 +30,29 @@ collections:
             displayFields: "title"
             searchFields: ["title"]
             multiple: true
+      - label: "Solutions"
+        name: "solutions"
+        file: "content/solutions.md"
+        fields:
+          - {
+              label: "Public",
+              name: "public",
+              widget: "boolean",
+              default: true,
+            }
+          - { label: "Name", name: "name", widget: "string" }
+          - label: "Birthdate"
+            name: "birthdate"
+            widget: "date"
+            default: ""
+            format: "MM/DD/YYYY"
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields:
+              - { label: "Street Address", name: "street", widget: "string" }
+              - { label: "City", name: "city", widget: "string" }
+              - { label: "Postal Code", name: "post-code", widget: "string" }
       - label: "Registry"
         name: "registry"
         file: "content/registry.md"
@@ -43,14 +66,6 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-          - label: "Featured Posts"
-            name: "featured"
-            widget: "relation"
-            collection: "blog"
-            valueField: "slug"
-            displayFields: "title"
-            searchFields: ["title"]
-            multiple: true
   - name: "blog"
     label: "Blog"
     folder: "content/posts"
