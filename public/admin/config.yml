@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: cto
-publish_mode: editorial_workflow
 media_folder: public/img
 public_folder: img
 site_url: https://butwillitscale.com
