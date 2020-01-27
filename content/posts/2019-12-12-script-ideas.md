@@ -14,6 +14,8 @@ Mermaid story
 
 # Short Films
 
+https://www.storyboardthat.com/articles/e/five-act-structure
+
 ## yamadutas
 
 ## boy who could light fire by mantra
@@ -33,7 +35,7 @@ The boys have been misled about the true purpose of the facility.
 
 He tries to escape?
 
-An experiment to isolate children from the corruption endemic in modern living
+An experiment to isolate children from the corruption endemic to modern living
 An Amish tale (the witness, Harrison Ford)
 
 Like the secret remote viewing program
@@ -51,7 +53,8 @@ Secret nazi program
 
 ### Inspiration:
 
-- Homecoming serial
+- Homecoming
+- Hanna
 - The Witness
 - The Village
 - Truman Show
@@ -60,3 +63,7 @@ Secret nazi program
 
 An area is designated as forbidden from visiting, so as not to disturb the primitive inhabitants.
 Are they really so primitive, or is this just an elaborate cover-up to prevent their ideas from spreading?
+
+# Gauranga's Brother
+
+Story of Gauranga's brother, who likes to take care of the cows at Gurukula. Silent film where protagonist is silently observing events around him, he is passive participant. Meeting with Mahasaya and mother. Teacher explains how he is unfit to remain at the school due to his poor academic performance. He attends a new school where he struggles in the classroom.
